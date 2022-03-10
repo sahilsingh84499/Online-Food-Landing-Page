@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order food online with indis's best food delivery system</title>
+    <link rel="icon" href="./Images/FC-logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header container -->
+    <header>
+        <div id="container">
+            <div class="left">
+                <div class="nav">
+                    <div class="logo">
+                        <img src="./Images/FC-logo.png" alt="logo">
+                    </div>
+                    <div class="login">
+                        <ul>
+                            <li class="white1"><a href="">login</a></li>
+                            <li class="black"><a href="" style="color: white;">sign up</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="left-content">
+                    <h1 class="main-heading"></h1>
+                    <h2 class="sub-heading">Order food from favourite restaurants near you.</h2>
+                    <input type="text" class="textbox" placeholder="enter your delivery location">
+                    <input type="button" class="button" value="find food">
+                    <p class="PII">POPULAR CITIES IN INDIA</p>
+                    <p class="cities">Ahmedabad Bangalore Chennai Delhi Gurgaon Hyderabad Kolkata Mumbai Pune& more.</p>
+                </div>
+
+            </div>
+            <div class="right">
+                <img src="./Images/homepage.webp" alt="homepage image">
+            </div>
+        </div>
+    </header>
+    <!-- End header container -->
+    <!-- feature container -->
+    <section>
+        <div id="features">
+            <div class="features-items">
+                <div class="features-img">
+                    <img src="./Images/like.webp" alt="like">
+                </div>
+                <div class="features-content">
+                    <h1>No Minimum Order</h1>
+                    <p>Order in for yourself or for the group, with no restrictions on order value</p>
+                </div>
+            </div>
+            <div class="features-items">
+                <div class="features-img">
+                    <img src="./Images/location.webp" alt="location">
+                </div>
+                <div class="features-content">
+                    <h1>Live Order Tracking</h1>
+                    <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+                </div>
+            </div>
+
+            <div class="features-items">
+                <div class="features-img">
+                    <img src="./Images/bike-rider.webp" alt="rider">
+                </div>
+                <div class="features-content">
+                    <h1>Lightning-Fast Delivery</h1>
+                    <p>Experience Food club's superfast delivery for food delivered fresh & on time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End feature container -->
+
+
+
+    <!-- track order container -->
+    <section>
+        <div id="track-order">
+            <div class="track-order-content">
+                <div class="track-left-text">
+                    <h1>Restaurants in your pocket</h1>
+                    <p>Order from your favorite restaurants & track on the go, with the all-new Food club app.</p>
+                </div>
+                <div class="track-left-img">
+                    <img src="./Images/gplay.webp" alt="google play">
+                    <img src="./Images/app-store.webp" alt="app store">
+                </div>
+            </div>
+            <div class="track-mobile">
+                <div class="mobile1">
+                    <img src="./Images/mobile.webp" alt="mobile1">
+                </div>
+                <div class="mobile2">
+                    <img src="./Images/mobile2.webp" alt="mobile2">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End track order container -->
+
+
+    <!-- find food container -->
+    <section>
+        <div id="find-food">
+            <div class="bearkfast-delhi">
+                <h1>Breakfast Places in Delhi</h1>
+            </div>
+            <div class="left-find-food">
+
+                <div class="location-dropdown">
+                    <h1 class="headoffood">Filters</h1>
+                    <p>Select location</p>
+                    <select name="Location" id="select-location">
+                        <option value="s-location">Select Location</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="up">Utter Pradesh</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="jaipur">Jaipur</option>
+                        <option value="rj">Rajasthan</option>
+                        <option value="goa">Goa</option>
+                        <option value="kerla">Kerla</option>
+                    </select>
+                </div>
+                <div class="cusine">
+                    <h1 class="headoffood">Cusine</h1>
+                    <input type="checkbox" name="north" class="check1" id="north-indian">&nbsp;North Indian<br>
+                    <input type="checkbox" name="north" class="check1" id="south-indian">&nbsp;South Indian<br>
+                    <input type="checkbox" name="north" class="check1" id="chinese">&nbsp;Chinese<br>
+                    <input type="checkbox" name="north" class="check1" id="fast-food">&nbsp;Fast Food<br>
+                    <input type="checkbox" name="north" class="check1" id="street-food">&nbsp;Street Food<br>
+                </div>
+                <div class="two-cost">
+                    <h1 class="headoffood">&nbsp;Cost for two</h1>
+                    <input type="radio" class="check1" name="cost-of-two">&nbsp;Less than 500<br>
+                    <input type="radio" class="check1" name="cost-of-two">&nbsp;500 to 1000<br>
+                    <input type="radio" class="check1" name="cost-of-two">&nbsp;1000 to 1500<br>
+                    <input type="radio" class="check1" name="cost-of-two">&nbsp;1500 to 2000<br>
+                    <input type="radio" class="check1" name="cost-of-two">&nbsp;2000+<br>
+                </div>
+                <div class="filter">
+                    <h1 class="headoffood">Sort</h1>
+                    <input type="radio" class="check1" name="price-filter" >&nbsp;Price low to high<br>
+                    <input type="radio" class="check1" name="price-filter" >&nbsp;Price high to low<br>
+                </div>
+            </div>
+            <div class="right-find-food">
+
+                <div class="main-food-option">
+                    <div class="food-option">
+                        <div class="food-option-img">
+                            <img src="./Images/food-option.png" alt="">
+                        </div>
+                        <div class="food-option-heading">
+                            <h1>Delhi Darbaar</h1>
+                            <p class="fort">fort</p>
+                            <p>Shop No- 23, Dwarka 6-10 Market, Near Sports Complex- 110075</p>
+                        </div>
+
+                    </div>
+                    <div class="cuisine-price">
+                        <div class="price">
+                            <p>Cusines:</p>
+                            <p>Cost for two</p>
+                        </div>
+                        <div class="MRP">
+                            <p>Bakery</p>
+                            <p>₹700</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-food-option">
+                    <div class="food-option">
+                        <div class="food-option-img">
+                            <img src="./Images/food-option.png" alt="">
+                        </div>
+                        <div class="food-option-heading">
+                            <h1>Apni Rasoi</h1>
+                            <p class="fort">fort</p>
+                            <p>Shop No- 23, Dwarka 6-10 Market, Near Sports Complex- 110075</p>
+                        </div>
+
+                    </div>
+                    <div class="cuisine-price">
+                        <div class="price">
+                            <p>Cusines:</p>
+                            <p>Cost for two</p>
+                        </div>
+                        <div class="MRP">
+                            <p>Bakery</p>
+                            <p>₹700</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="button-parent">
+                <div class="change-page">
+                    <button><</button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End find food container -->
+    <!-- footer section -->
+    <footer>
+        <div class="footer">
+            <div class="left-footer">
+                <img src="./Images/FC-logo.png" alt="logo">
+            </div>
+            <div class="right-footer">
+               
+            </div>
+        </div>
+    </footer>
+
+    <!-- End footer section -->
+
+
+
+</body>
+
+</html>
